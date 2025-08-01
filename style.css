@@ -7,7 +7,7 @@ h1,h2{
 }
 nav{
     text-align: center;
-    background-color: rgb(207, 182, 57);
+    background-color: rgb(226, 201, 75);
 }
 ul{
     display:flex;
@@ -65,6 +65,25 @@ div img{
 .text{
     margin: 10px;
 }
+
+span{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 4px;
+    border-style:solid;
+}
+span:hover{
+    background-color: rgb(159, 241, 34);
+}
 footer{
+    text-align: center;
+    background-color: rgb(226, 201, 75);
+
+}
+.link{
+    display: flex;
+    flex-direction: column;
+}
+footer>p{
     text-align: center;
 }
